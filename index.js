@@ -21,15 +21,7 @@ function distanceTravelledInFeet(pickupLocation, destination) {
 }
 
 function calculatesFarePrice(pickupLocation, destination) {
-  switch (tipLevel) {
-      case 'generous':
-        return 'Thank you so much.'
-          break;
-      case 'not as generous':
-        return 'Thank you.'
-          break;
-      default:
-        return 'Bye.'
-          break;
+  if (distanceTravelledInFeet(pickupLocation, destination) > 2500) {
+    return 'cannot travel that far'
   }
 }
