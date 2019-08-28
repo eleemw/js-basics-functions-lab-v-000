@@ -7,6 +7,6 @@ function distanceFromHqInBlocks(pickupLocation) {
   }
 }
 
-function distanceFromHqInFeet() {
+function distanceFromHqInFeet(distanceInBlocks) {
   
 }
