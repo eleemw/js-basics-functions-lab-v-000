@@ -4,5 +4,5 @@ function distanceFromHqInBlocks(pickupLocation) {
   } else {
     return 42 - pickupLocation;
   }
-  
+
 }
