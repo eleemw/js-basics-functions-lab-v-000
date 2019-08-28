@@ -20,6 +20,16 @@ function distanceTravelledInFeet(pickupLocation, destination) {
   }
 }
 
-function calculatesFarePrice() {
-  
+function calculatesFarePrice(pickupLocation, destination) {
+  switch (tipLevel) {
+      case 'generous':
+        return 'Thank you so much.'
+          break;
+      case 'not as generous':
+        return 'Thank you.'
+          break;
+      default:
+        return 'Bye.'
+          break;
+  }
 }
