@@ -12,5 +12,11 @@ function distanceFromHqInFeet(pickupLocation) {
 }
 
 function distanceTravelledInFeet(pickupLocation, destination) {
-  return ((destination - pickupLocation) * 264)
+  if (destination > pickupLocation) {
+    return ((destination - pickupLocation) * 264)
+  } 
+  else {
+    return ((pickupLocation - destination) * 264)  
+  }
+  
 }
