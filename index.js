@@ -22,6 +22,9 @@ function distanceTravelledInFeet(pickupLocation, destination) {
 
 function calculatesFarePrice(pickupLocation, destination) {
   if (distanceTravelledInFeet(pickupLocation, destination) > 2500) {
-    return 'cannot travel that far'
+    return 'cannot travel that far';
+  }
+  if (distanceTravelledInFeet(pickupLocation, destination) < 400) {
+    return 0
   }
 }
