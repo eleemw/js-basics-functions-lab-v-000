@@ -12,5 +12,5 @@ function distanceFromHqInFeet(pickupLocation) {
 }
 
 function distanceTravelledInFeet(pickupLocation, destination) {
-
+  return ((destination - pickupLocation) * 264)
 }
