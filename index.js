@@ -19,3 +19,7 @@ function distanceTravelledInFeet(pickupLocation, destination) {
     return ((pickupLocation - destination) * 264);
   }
 }
+
+function calculatesFarePrice() {
+  
+}
